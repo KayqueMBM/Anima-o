@@ -11,7 +11,7 @@
             position: absolute;
             top: 0px;
             left: 0px;
-            animation: engrena 1s infinite linear;
+            animation: engrena 10s infinite linear;
         }
            @keyframes engrena
         {
@@ -19,10 +19,24 @@
             
             100% { rotate: 360deg;  }
         }
+        .minha_engrenagem2
+        {
+            position: absolute;
+            top: 120px;
+            left: 600px;
+            animation: engrena2 10s infinite linear;
+        }
+           @keyframes engrena2
+        {
+            100%   { rotate: 0deg; }
+            
+            0% { rotate: 360deg;  }
+        }
 
 </style>
 </head>
 <body>
     <img src="engrenagem.png.png" class="minha_engrenagem">
+    <img src="engrenagem.png.png" class="minha_engrenagem2">
 </body>
 </html>
